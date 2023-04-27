@@ -1,0 +1,149 @@
+.login-div {
+    height: 100vh;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-weight: normal;
+    color: rgb(53, 53, 53);
+    margin-bottom: -15px;
+}
+
+.login-div form {
+    background-color: rgb(242, 242, 242);
+    height: 600px;
+    width: 600px;
+    box-shadow: 10px 10px 35px 5px #774dd01c;
+    border-radius: 7px;
+}
+
+.login-div form input {
+    width: 420px;
+    height: 45px;
+    background-color: rgb(242, 242, 242);
+    font-size: 18px;
+    display: flex;
+    border: 1px solid #00000032;
+    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-left: 15%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+
+.login-div form input::placeholder {
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.acessos {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 1.6%;
+    margin-bottom: 0px;
+    margin-left: 25%;
+    color: #774dd0ca;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.acessos .checkbox {
+    height: 20px;
+    border-radius: 7px;
+    margin-left: -81%;
+    margin-top: 3%;
+    border: 1px;
+}
+
+.lembrar {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 17px;
+    margin-top: 3%;
+    margin-left: -32%;
+    margin-right: -0.5%;
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+
+#login {
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 15%;
+    margin-bottom: 6%;
+    color: rgba(0, 0, 0, 0.455);
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    margin-left: 15%;
+    margin-top: 10%;
+    color: black;
+}
+
+.buttonLogar {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 426px;
+    border: none;
+    border-radius: 7px;
+    background: #7f56da;
+    margin-top: 2.5%;
+    margin-bottom: 2%;
+    margin-left: 14.5%;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.buttonLogar:hover {
+    background: #774dd0;
+    color: white;
+    transition: .25s;
+}
+
+.buttonCriar {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 425px;
+    border-radius: 7px;
+    background: rgb(0, 216, 58);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+    margin-left: 14.4%;
+}
+
+.buttonCriar:hover {
+    background: rgba(0, 216, 58, 0.786);
+    color: #ffffff;
+    transition: .25s;
+}
+
+.actions {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
