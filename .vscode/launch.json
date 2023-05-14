@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RestapiApplication",
+            "request": "launch",
+            "mainClass": "com.api.restapi.RestapiApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-RestapiApplication<restapi>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

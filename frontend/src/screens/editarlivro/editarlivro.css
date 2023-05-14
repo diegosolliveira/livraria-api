@@ -1,7 +1,8 @@
-.login-div {
+.editarlivro-div {
     height: 100vh;
     background-color: #ffffff;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     font-family: Arial;
@@ -10,15 +11,15 @@
     margin-bottom: -15px;
 }
 
-.login-div form {
+.editarlivro-div form {
     background-color: rgb(242, 242, 242);
-    height: 640px;
-    width: 600px;
+    height: 785px;
+    width: 1200px;
     box-shadow: 10px 10px 35px 5px #774dd01c;
     border-radius: 7px;
 }
 
-.login-div form input {
+.editarlivro-div form input {
     width: 420px;
     height: 45px;
     background-color: rgb(242, 242, 242);
@@ -26,17 +27,24 @@
     display: flex;
     border: 1px solid #00000032;
     margin-bottom: 25px;
-    margin-top: 0px;
-    margin-left: 15%;
+    margin-top: -0.4%;
+    margin-left: 14%;
     border-top: none;
     border-left: none;
     border-right: none;
     outline: none;
 }
 
-.login-div form input::placeholder {
+.editarlivro-div form input::placeholder {
     font-size: 17px;
     opacity: 0.5;
+}
+
+.logoca {
+    height: 200%;
+    margin-left: 6%;
+    margin-top: -2%;
+    color: rgb(255, 255, 255);
 }
 
 .acessos {
@@ -56,23 +64,23 @@
     text-decoration: none;
 }
 
-#login {
+#loginEditarlivro {
     font-family: "Roboto";
     font-weight: normal;
     font-size: 16px;
-    margin-left: 15%;
-    margin-bottom: 6%;
+    margin-left: 14%;
+    margin-bottom: 4%;
     color: rgba(0, 0, 0, 0.455);
     letter-spacing: 0.5px;
 }
 
-.cadastrotitulo {
-    margin-left: 15%;
-    margin-top: 8%;
+h1 {
+    margin-left: 14%;
+    margin-top: 2.5%;
     color: black;
 }
 
-.buttonCriarConta {
+.buttonEditarLivro {
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
     width: 425px;
@@ -83,37 +91,76 @@
     font-weight: bold;
     letter-spacing: 0.8px;
     text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: all 0.2s;
-    margin-left: 14.5%;
-    margin-top: 2.5%;
+    margin-left: 13.5%;
+    margin-top: -4.1%;
     border: none;
 }
 
-.buttonCriarConta:hover {
+.buttonEditarLivro:hover {
     background: rgba(0, 216, 58, 0.786);
     color: #ffffff;
     transition: .25s;
 }
 
-.actions {
-    margin-bottom: 20px;
-    padding: 5px;
+.buttonDeletar {
     font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    width: 425px;
+    border-radius: 7px;
+    border: none;
+    background: rgb(237, 45, 20);
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    align-items: center;
+    transition: all 0.2s;
+    margin-left: 50.3%;
+    margin-top: 2%;
+    flex-wrap: wrap;
 }
 
-.usuarioSalvo{
+.buttonDeletar:hover {
+    background: rgba(216, 0, 0, 0.786);
+    color: #ffffff;
+    transition: .25s;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.livroEditado {
     font-size: 50px;
-    margin-left: 45%;
-    margin-top: 6%;
+    margin-left: 29%;
+    margin-top: 12%;
     color: rgba(0, 216, 58, 0.786);
     opacity: 0; /* Defina a opacidade como 0 para que o ícone seja invisível inicialmente */
     transition: opacity 0.5s ease-in-out; /* Defina a transição para a propriedade de opacidade */
 }
-
-.usuarioSalvo--mostrar {
+  
+  
+.livroEditado--mostrar {
     opacity: 1; /* Defina a opacidade como 1 para que o ícone seja visível */
-    margin-left: 45%; /* Defina a margem esquerda para que o ícone apareça deslizando do lado esquerdo para o centro */
+    margin-left: 29%; /* Defina a margem esquerda para que o ícone apareça deslizando do lado esquerdo para o centro */
+}
+
+.imageEditar img{
+    height: 455px;
+    width: 360px;
+    border-radius: 7px;
+    margin-left: 55.1%;
+    margin-top: -47%;
+    box-shadow: 2px 3px 10px 7px #0000001c;
+}
+
+.imageEditar img:hover{
+    height: 456px;
+    width: 361px;
+    border-radius: 7px;
+    margin-left: 55.1%;
+    margin-top: -47%;
+    box-shadow: 2px 3px 10px 7px #0000001c;
 }

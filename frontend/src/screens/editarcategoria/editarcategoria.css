@@ -1,4 +1,4 @@
-.login-div {
+.editarcategoria-div {
     height: 100vh;
     background-color: #ffffff;
     display: flex;
@@ -10,7 +10,7 @@
     margin-bottom: -15px;
 }
 
-.login-div form {
+.editarcategoria-div form {
     background-color: rgb(242, 242, 242);
     height: 600px;
     width: 600px;
@@ -18,7 +18,7 @@
     border-radius: 7px;
 }
 
-.login-div form input {
+.editarcategoria-div form input {
     width: 420px;
     height: 45px;
     background-color: rgb(242, 242, 242);
@@ -34,9 +34,16 @@
     outline: none;
 }
 
-.login-div form input::placeholder {
+.editarcategoria-div form input::placeholder {
     font-size: 17px;
     opacity: 0.5;
+}
+
+.logoca {
+    height: 200%;
+    margin-left: 6%;
+    margin-top: -2%;
+    color: rgb(255, 255, 255);
 }
 
 .acessos {
@@ -56,27 +63,7 @@
     text-decoration: none;
 }
 
-.acessos .checkbox {
-    height: 20px;
-    border-radius: 7px;
-    margin-left: -81%;
-    margin-top: 3%;
-    border: 1px;
-}
-
-.lembrar {
-    font-family: "Roboto";
-    font-weight: normal;
-    font-size: 17px;
-    margin-top: 3%;
-    margin-left: -32%;
-    margin-right: -0.5%;
-    letter-spacing: 0.5px;
-    color: rgba(0, 0, 0, 0.55);
-}
-
-
-#login {
+#loginEditarCategoria {
     font-family: "Roboto";
     font-weight: normal;
     font-size: 16px;
@@ -86,39 +73,13 @@
     letter-spacing: 0.5px;
 }
 
-.logintitulo {
+.tituloEditarcategoria {
     margin-left: 15%;
     margin-top: 8%;
     color: black;
 }
 
-.buttonLogar {
-    font-family: Arial, Helvetica, sans-serif;
-    height: 50px;
-    width: 426px;
-    border: none;
-    border-radius: 7px;
-    background: #e7c766;
-    margin-top: 2.5%;
-    margin-bottom: 2%;
-    margin-left: 14.5%;
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0.8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.2s;
-}
-
-.buttonLogar:hover {
-    background: #e7c96e92;
-    color: white;
-    transition: .25s;
-}
-
-.buttonCriar {
+.buttonEditarcategoria {
     font-family: Arial, Helvetica, sans-serif;
     height: 50px;
     width: 425px;
@@ -133,10 +94,12 @@
     justify-content: center;
     align-items: center;
     transition: all 0.2s;
-    margin-left: 14.4%;
+    margin-left: 14.5%;
+    margin-top: 2.5%;
+    border: none;
 }
 
-.buttonCriar:hover {
+.buttonEditarcategoria:hover {
     background: rgba(0, 216, 58, 0.786);
     color: #ffffff;
     transition: .25s;
@@ -146,4 +109,19 @@
     margin-bottom: 20px;
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.categoriaSalvo2 {
+    font-size: 50px;
+    margin-left: 45%;
+    margin-top: 7%;
+    color: rgba(0, 216, 58, 0.786);
+    opacity: 0; /* Defina a opacidade como 0 para que o ícone seja invisível inicialmente */
+    transition: opacity 0.5s ease-in-out; /* Defina a transição para a propriedade de opacidade */
+}
+  
+  
+.categoriaSalvo2--mostrar {
+    opacity: 1; /* Defina a opacidade como 1 para que o ícone seja visível */
+    margin-left: 45%; /* Defina a margem esquerda para que o ícone apareça deslizando do lado esquerdo para o centro */
 }

@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from "../../images/Logo.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 import './style.css'
 
 export default function Login() {
@@ -13,8 +14,9 @@ export default function Login() {
 
         <div className="login-div">
             <form className='form'>
+                <Link className='fahome' to={'/'}><FontAwesomeIcon icon={faArrowLeft} /></Link>
 
-                <h1>Login</h1>
+                <h1 className='logintitulo'>Login</h1>
                 <h4 id='login'>Bem-vindo! Por favor, insira seus dados.</h4>
 
                 <div className='label-float'>
