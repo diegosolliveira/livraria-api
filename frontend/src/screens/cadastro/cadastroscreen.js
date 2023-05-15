@@ -44,7 +44,7 @@ export default function Cadastrar() {
                     document.querySelector('.usuarioSalvo').classList.add('usuarioSalvo--mostrar');
                 }, 100);
 
-                // Remova a classe .autorSalvo--mostrar após 3 segundos
+                // Remova a classe .autorSalvo--mostrar após 1.2 segundos
                 setTimeout(() => {
                     document.querySelector('.usuarioSalvo').classList.remove('usuarioSalvo--mostrar');
                 }, 1200);

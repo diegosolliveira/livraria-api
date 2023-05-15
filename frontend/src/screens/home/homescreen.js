@@ -1,10 +1,9 @@
 
 import { Link } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
-import { debounce } from 'lodash';
 import api from "../../services/api"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEdit, faTag, faSearch, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faEdit, faTag, faUser } from '@fortawesome/free-solid-svg-icons';
 import Logo from "../../images/Logo.png"
 import './homescreen.css'
 
@@ -87,16 +86,6 @@ export default function Home() {
             })
             .catch(error => console.log(error));
     }, []);
-
-    let lista = []; // nova variável
-
-    if (listaExibida === 'livros') {
-        lista = livros;
-    } else if (listaExibida === 'categorias') {
-        lista = categorias;
-    } else if (listaExibida === 'autores') {
-        lista = autores;
-    }
 
     return (
         <div className="home-div">
